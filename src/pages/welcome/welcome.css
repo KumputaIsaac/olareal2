@@ -1,0 +1,228 @@
+.container .logo {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0 42px 0;
+}
+
+.container .logo img:first-child {
+	margin-right: 21px;
+}
+
+.container .welcome p {
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #037c0f;
+}
+
+.container .welcome {
+	margin-bottom: 36px;
+}
+
+.container .whatyou p {
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #037c0f;
+	font-weight: normal;
+}
+
+.container .options {
+	margin: 67px 0;
+}
+
+.container .options .option1,
+.container .options .option2 {
+	display: flex;
+	justify-content: center;
+}
+
+.container .options .check {
+	width: 412.74px;
+	height: 105.58px;
+	background: #ffffff;
+	border: 0.1px solid #037c0f;
+	border-radius: 9px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 53px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #037c0f;
+	cursor: pointer;
+}
+
+.container .options .option2 .check:last-child {
+	background: #037c0f;
+	color: white;
+}
+
+.container .options .check img {
+	margin-right: 52px;
+}
+
+.container .options .option1 {
+	margin-bottom: 52px;
+}
+
+.container .options .option1 .check:first-child,
+.container .options .option2 .check:first-child {
+	margin-right: 78px;
+}
+
+.container .votingcommence {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #037c0f;
+	margin-bottom: 18px;
+}
+
+.container .everyvoter {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #ff2020;
+}
+
+.unneccessary {
+	margin-top: 100px;
+	width: 70%;
+	height: 31px;
+	background: #037c0f;
+}
+
+.none {
+	display: none !important;
+}
+
+.cover {
+	width: 100%;
+	/* height: 100%; */
+	position: fixed;
+	background: rgba(4, 75, 11, 0.5);
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* display: none; */
+}
+
+.cover .content {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.cover .content .cancel {
+	height: 23px;
+	width: 23px;
+	margin-left: auto;
+	padding: 5px;
+	background-color: white;
+	margin-bottom: 8px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover .content .change {
+	padding: 45px 63px;
+	width: 550px;
+	/* height: 530px; */
+	text-align: center;
+	background-color: white;
+}
+
+.cover .content .change p:first-child {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 124.5%;
+	text-align: center;
+	color: #037c0f;
+	margin-bottom: 17px;
+}
+
+.cover .content .change p:nth-child(2) {
+	font-family: Red Hat Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	text-align: center;
+	color: #80718a;
+}
+
+.cover .content .change img {
+	margin: 50px auto;
+}
+
+.cover .content .change .cancelcontinue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.cover .content .change .cancelcontinue .can:first-child {
+	background: #ffffff;
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	color: #037c0f;
+	border: #037c0f 1px solid;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover .content .change .cancelcontinue .can:nth-child(2) {
+	color: #ffffff;
+	border-radius: 5px;
+	height: 57px;
+	width: 200px;
+	padding: 15px 40px;
+	background-color: #037c0f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+	.container,
+	.unneccessary,
+	.cover {
+		display: none;
+	}
+
+	.message {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.message {
+		display: none;
+	}
+}
+
+p.red {
+	color: red !important;
+}

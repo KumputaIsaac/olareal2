@@ -1,0 +1,88 @@
+.iconback {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.iconback p {
+	margin-left: 10px;
+}
+
+.choosen .last p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140.5%;
+	margin: 15px;
+	color: #037c0f;
+}
+
+.choosen .last p:first-child {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 49px;
+	color: #037c0f;
+}
+
+.choosen .candidate {
+	display: flex;
+	justify-content: center;
+}
+
+.choosen .candidate .theimg {
+	display: flex;
+	position: relative;
+	padding: 16px 22px;
+	width: 600px;
+	height: 200px;
+	background: white;
+}
+
+.choosen .candidate .theimg .p {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.choosen .candidate .p p:first-child {
+	font-weight: bold;
+	color: #037c0f;
+
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.choosen .candidate .p p:nth-child(2) {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 5px;
+	color: #aaaaaa;
+}
+
+.choosen .candidate .p p:last-child {
+	color: #037c0f;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.choosen .confirm {
+	width: 425px;
+	height: 73px;
+	left: 508px;
+	top: 834px;
+	background: #037c0f;
+	border-radius: 9px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	margin: 20px auto;
+	cursor: pointer;
+}
